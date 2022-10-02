@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893AC7A428E05151002B400E /* KeyboardAvoidingSamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7A328E05151002B400E /* KeyboardAvoidingSamplesApp.swift */; };
+		893AC7A828E05152002B400E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893AC7A728E05152002B400E /* Assets.xcassets */; };
+		893AC7AB28E05152002B400E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893AC7AA28E05152002B400E /* Preview Assets.xcassets */; };
+		893AC7B428E0534B002B400E /* Publishers+KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7B328E0534B002B400E /* Publishers+KeyboardState.swift */; };
+		893AC7B628E05365002B400E /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7B528E05365002B400E /* KeyboardState.swift */; };
+		893AC7B928E053B8002B400E /* KeyboardAvoidingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7B828E053B8002B400E /* KeyboardAvoidingModifier.swift */; };
+		893AC7BB28E053EA002B400E /* KeyboardStateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7BA28E053EA002B400E /* KeyboardStateObserver.swift */; };
+		893AC7C028E05C8B002B400E /* KeyboardScrollerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7BF28E05C8B002B400E /* KeyboardScrollerOptions.swift */; };
+		893AC7C228E05CAB002B400E /* KeyboardScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7C128E05CAB002B400E /* KeyboardScroller.swift */; };
+		893AC7C628E05E37002B400E /* UIResponder+CurrentResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7C528E05E37002B400E /* UIResponder+CurrentResponder.swift */; };
+		893AC7C828E05E53002B400E /* KeyboardAvoidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7C728E05E53002B400E /* KeyboardAvoidingViewController.swift */; };
+		893AC7CA28E05E6C002B400E /* KeyboardAvoidingViewControllerRepr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7C928E05E6C002B400E /* KeyboardAvoidingViewControllerRepr.swift */; };
+		893AC7CC28E05EB3002B400E /* UIView+EnclosingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7CB28E05EB3002B400E /* UIView+EnclosingScrollView.swift */; };
+		893AC7CE28E05EDB002B400E /* DismissKeyboardTapHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7CD28E05EDB002B400E /* DismissKeyboardTapHandler.swift */; };
+		893AC7D028E05EFE002B400E /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7CF28E05EFE002B400E /* UIApplication+.swift */; };
+		893AC7D328E06001002B400E /* KeyboardAvoidingPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7D228E06001002B400E /* KeyboardAvoidingPalette.swift */; };
+		893AC7D528E0604A002B400E /* KeyboardAvoidingWindowTapSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7D428E0604A002B400E /* KeyboardAvoidingWindowTapSample.swift */; };
+		893AC7D828E06333002B400E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7D728E06333002B400E /* CustomTextField.swift */; };
+		893AC7DA28E06419002B400E /* KeyboardAvoidingPartialModalSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7D928E06419002B400E /* KeyboardAvoidingPartialModalSample.swift */; };
+		893AC7DC28E06627002B400E /* DismissKeyboardTapViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7DB28E06627002B400E /* DismissKeyboardTapViewModifier.swift */; };
+		893AC7E028E06821002B400E /* KeyboardAvoidingPartialSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AC7DF28E06821002B400E /* KeyboardAvoidingPartialSample.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		893AC7A028E05151002B400E /* KeyboardAvoidingSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoidingSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893AC7A328E05151002B400E /* KeyboardAvoidingSamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingSamplesApp.swift; sourceTree = "<group>"; };
+		893AC7A728E05152002B400E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893AC7AA28E05152002B400E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		893AC7B328E0534B002B400E /* Publishers+KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+KeyboardState.swift"; sourceTree = "<group>"; };
+		893AC7B528E05365002B400E /* KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
+		893AC7B828E053B8002B400E /* KeyboardAvoidingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingModifier.swift; sourceTree = "<group>"; };
+		893AC7BA28E053EA002B400E /* KeyboardStateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardStateObserver.swift; sourceTree = "<group>"; };
+		893AC7BF28E05C8B002B400E /* KeyboardScrollerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardScrollerOptions.swift; sourceTree = "<group>"; };
+		893AC7C128E05CAB002B400E /* KeyboardScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardScroller.swift; sourceTree = "<group>"; };
+		893AC7C528E05E37002B400E /* UIResponder+CurrentResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+CurrentResponder.swift"; sourceTree = "<group>"; };
+		893AC7C728E05E53002B400E /* KeyboardAvoidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingViewController.swift; sourceTree = "<group>"; };
+		893AC7C928E05E6C002B400E /* KeyboardAvoidingViewControllerRepr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingViewControllerRepr.swift; sourceTree = "<group>"; };
+		893AC7CB28E05EB3002B400E /* UIView+EnclosingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+EnclosingScrollView.swift"; sourceTree = "<group>"; };
+		893AC7CD28E05EDB002B400E /* DismissKeyboardTapHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardTapHandler.swift; sourceTree = "<group>"; };
+		893AC7CF28E05EFE002B400E /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		893AC7D228E06001002B400E /* KeyboardAvoidingPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingPalette.swift; sourceTree = "<group>"; };
+		893AC7D428E0604A002B400E /* KeyboardAvoidingWindowTapSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingWindowTapSample.swift; sourceTree = "<group>"; };
+		893AC7D728E06333002B400E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		893AC7D928E06419002B400E /* KeyboardAvoidingPartialModalSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingPartialModalSample.swift; sourceTree = "<group>"; };
+		893AC7DB28E06627002B400E /* DismissKeyboardTapViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardTapViewModifier.swift; sourceTree = "<group>"; };
+		893AC7DF28E06821002B400E /* KeyboardAvoidingPartialSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingPartialSample.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893AC79D28E05151002B400E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893AC79728E05151002B400E = {
+			isa = PBXGroup;
+			children = (
+				893AC7A228E05151002B400E /* KeyboardAvoidingSamples */,
+				893AC7A128E05151002B400E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893AC7A128E05151002B400E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7A028E05151002B400E /* KeyboardAvoidingSamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893AC7A228E05151002B400E /* KeyboardAvoidingSamples */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7D628E06321002B400E /* Views */,
+				893AC7D128E05FF1002B400E /* Samples */,
+				893AC7C428E05E16002B400E /* Extensions */,
+				893AC7B128E0528E002B400E /* AvoidingHelpers */,
+				893AC7A328E05151002B400E /* KeyboardAvoidingSamplesApp.swift */,
+				893AC7A728E05152002B400E /* Assets.xcassets */,
+				893AC7A928E05152002B400E /* Preview Content */,
+			);
+			path = KeyboardAvoidingSamples;
+			sourceTree = "<group>";
+		};
+		893AC7A928E05152002B400E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7AA28E05152002B400E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		893AC7B128E0528E002B400E /* AvoidingHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7C328E05E04002B400E /* Avoider */,
+				893AC7BE28E05C79002B400E /* Scroller */,
+				893AC7B728E053A4002B400E /* ViewModifiers */,
+				893AC7B228E05335002B400E /* State */,
+			);
+			path = AvoidingHelpers;
+			sourceTree = "<group>";
+		};
+		893AC7B228E05335002B400E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7B328E0534B002B400E /* Publishers+KeyboardState.swift */,
+				893AC7B528E05365002B400E /* KeyboardState.swift */,
+				893AC7BA28E053EA002B400E /* KeyboardStateObserver.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		893AC7B728E053A4002B400E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7B828E053B8002B400E /* KeyboardAvoidingModifier.swift */,
+				893AC7DB28E06627002B400E /* DismissKeyboardTapViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		893AC7BE28E05C79002B400E /* Scroller */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7BF28E05C8B002B400E /* KeyboardScrollerOptions.swift */,
+				893AC7C128E05CAB002B400E /* KeyboardScroller.swift */,
+				893AC7CD28E05EDB002B400E /* DismissKeyboardTapHandler.swift */,
+			);
+			path = Scroller;
+			sourceTree = "<group>";
+		};
+		893AC7C328E05E04002B400E /* Avoider */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7C728E05E53002B400E /* KeyboardAvoidingViewController.swift */,
+				893AC7C928E05E6C002B400E /* KeyboardAvoidingViewControllerRepr.swift */,
+			);
+			path = Avoider;
+			sourceTree = "<group>";
+		};
+		893AC7C428E05E16002B400E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7C528E05E37002B400E /* UIResponder+CurrentResponder.swift */,
+				893AC7CB28E05EB3002B400E /* UIView+EnclosingScrollView.swift */,
+				893AC7CF28E05EFE002B400E /* UIApplication+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		893AC7D128E05FF1002B400E /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7D228E06001002B400E /* KeyboardAvoidingPalette.swift */,
+				893AC7D428E0604A002B400E /* KeyboardAvoidingWindowTapSample.swift */,
+				893AC7D928E06419002B400E /* KeyboardAvoidingPartialModalSample.swift */,
+				893AC7DF28E06821002B400E /* KeyboardAvoidingPartialSample.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		893AC7D628E06321002B400E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				893AC7D728E06333002B400E /* CustomTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893AC79F28E05151002B400E /* KeyboardAvoidingSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893AC7AE28E05152002B400E /* Build configuration list for PBXNativeTarget "KeyboardAvoidingSamples" */;
+			buildPhases = (
+				893AC79C28E05151002B400E /* Sources */,
+				893AC79D28E05151002B400E /* Frameworks */,
+				893AC79E28E05151002B400E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardAvoidingSamples;
+			productName = KeyboardAvoidingSamples;
+			productReference = 893AC7A028E05151002B400E /* KeyboardAvoidingSamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893AC79828E05151002B400E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					893AC79F28E05151002B400E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 893AC79B28E05151002B400E /* Build configuration list for PBXProject "KeyboardAvoidingSamples" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893AC79728E05151002B400E;
+			productRefGroup = 893AC7A128E05151002B400E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893AC79F28E05151002B400E /* KeyboardAvoidingSamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893AC79E28E05151002B400E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AC7AB28E05152002B400E /* Preview Assets.xcassets in Resources */,
+				893AC7A828E05152002B400E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893AC79C28E05151002B400E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AC7C228E05CAB002B400E /* KeyboardScroller.swift in Sources */,
+				893AC7D528E0604A002B400E /* KeyboardAvoidingWindowTapSample.swift in Sources */,
+				893AC7B628E05365002B400E /* KeyboardState.swift in Sources */,
+				893AC7D028E05EFE002B400E /* UIApplication+.swift in Sources */,
+				893AC7D828E06333002B400E /* CustomTextField.swift in Sources */,
+				893AC7C028E05C8B002B400E /* KeyboardScrollerOptions.swift in Sources */,
+				893AC7B428E0534B002B400E /* Publishers+KeyboardState.swift in Sources */,
+				893AC7DC28E06627002B400E /* DismissKeyboardTapViewModifier.swift in Sources */,
+				893AC7CA28E05E6C002B400E /* KeyboardAvoidingViewControllerRepr.swift in Sources */,
+				893AC7C828E05E53002B400E /* KeyboardAvoidingViewController.swift in Sources */,
+				893AC7CC28E05EB3002B400E /* UIView+EnclosingScrollView.swift in Sources */,
+				893AC7CE28E05EDB002B400E /* DismissKeyboardTapHandler.swift in Sources */,
+				893AC7C628E05E37002B400E /* UIResponder+CurrentResponder.swift in Sources */,
+				893AC7E028E06821002B400E /* KeyboardAvoidingPartialSample.swift in Sources */,
+				893AC7A428E05151002B400E /* KeyboardAvoidingSamplesApp.swift in Sources */,
+				893AC7D328E06001002B400E /* KeyboardAvoidingPalette.swift in Sources */,
+				893AC7BB28E053EA002B400E /* KeyboardStateObserver.swift in Sources */,
+				893AC7B928E053B8002B400E /* KeyboardAvoidingModifier.swift in Sources */,
+				893AC7DA28E06419002B400E /* KeyboardAvoidingPartialModalSample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		893AC7AC28E05152002B400E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893AC7AD28E05152002B400E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893AC7AF28E05152002B400E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyboardAvoidingSamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Valeron.Inc.KeyboardAvoidingSamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		893AC7B028E05152002B400E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyboardAvoidingSamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Valeron.Inc.KeyboardAvoidingSamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893AC79B28E05151002B400E /* Build configuration list for PBXProject "KeyboardAvoidingSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AC7AC28E05152002B400E /* Debug */,
+				893AC7AD28E05152002B400E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893AC7AE28E05152002B400E /* Build configuration list for PBXNativeTarget "KeyboardAvoidingSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AC7AF28E05152002B400E /* Debug */,
+				893AC7B028E05152002B400E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893AC79828E05151002B400E /* Project object */;
+}
