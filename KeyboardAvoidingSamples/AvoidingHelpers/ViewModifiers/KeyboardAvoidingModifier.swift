@@ -4,10 +4,10 @@ import Combine
 import SwiftUI
 
 class KeyboardScrollInvocator: ObservableObject {
-    var triggerSubject = PassthroughSubject<Bool, Never>()
+    var triggerSubject = PassthroughSubject<Void, Never>()
 
     public func scrollToActiveInput() {
-        triggerSubject.send(true)
+        triggerSubject.send(())
     }
 }
 
